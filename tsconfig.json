@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "exclude": ["node_modules", ".expo"],
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/assets/*": ["assets/*"]
+    }
+  }
+}
